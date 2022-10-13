@@ -8,12 +8,12 @@ attention:The input objects of 4DCNN are amino acids and residues at the interac
 ## Using a decoy (PDB ID:3EGZ) as an example, we show the use of three modules.
 
 ## 1: get amino acids and residues at the interaction interface of RNA-protein within 6A.
-### This step is not necessary if you can directly provide amino acids and residues of the protein-RNA interaction interface within 6A
+### This step is not necessary if you can directly provide amino acids and residues at the protein-RNA interaction interface within 6A
 cd ./6A_calculation 
 
 python rpo.py in out
 
-The command above will calculate the amino acids and residues at the 6A interaction interface for all RNA-protein complexes provided in ./6A_calculation/in and generate the results in ./6A_calculation/out.
+The command above will calculate the amino acids and residues at the protein-RNA interaction interface within 6A provided in ./6A_calculation/in and generate the results in ./6A_calculation/out.
 
 Then Generate a pdb file containing only amino acids and residues at the 6A interaction interface.
 ### attention: For structures containing multiple chains, you need to manually delete protein-protein, RNA-RNA self-interactions from the output file.
