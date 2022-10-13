@@ -23,8 +23,8 @@ The commands above will generate a pdb file containing only amino acids and resi
 ## 2: Generate the scoring preparation file '*.npy'.
 
 cd ./4DCNN/data/predict/  
-python Main.py -pl pdblist  (to assess an RNA-protein complex)  
-python Main.py -pn pdbname  (to assess a list of RNA-protein complexes)
+python Main.py -pl pdblist   (to assess a list of RNA-protein complexes)  
+python Main.py -pn pdbname   (to assess an RNA-protein complex)
 
 The commands above will generate a preparation file '*.npy' of RNA-protein complexes in pdblist for DRPScore.
 
