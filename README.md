@@ -26,7 +26,7 @@ cd ./4DCNN/data/predict/
 python Main.py -pl pdblist  (to assess an RNA-protein complex)  
 python Main.py -pn pdbname  (to assess a list of RNA-protein complexes)
 
-The commands above will generate a preparation file '*.npy' for DRPScore of RNA-protein complexes in pdblist.
+The commands above will generate a preparation file '*.npy' of RNA-protein complexes in pdblist for DRPScore.
 
 ## 3.Prediction by 4DCNN.
 cd ./4DCNN  
