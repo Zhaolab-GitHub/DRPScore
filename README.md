@@ -33,7 +33,7 @@ cd ./4DCNN
 python pred.py
 
 The above commands will predict all *.npy files provided in /data/predict/, scoring results are output in the scoring.txt.
-The first column is the name of the RNA-protein complex evaluated, and the third column is the probability that it is a native structure.
+The first column is the name of the RNA-protein complex evaluated, and the third column is the probability of a native structure.
 
 For the case where both RNA and protein are single-stranded, we provide a simple chain(6A_calculation.sh and DRPScore.sh) to use the flow from pdb files to scoring.
 
