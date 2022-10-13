@@ -8,7 +8,7 @@ attention:The input objects of 4DCNN are amino acids and residues at the interac
 ## Using a decoy (PDB ID:3EGZ) as an example, we show the use of three modules.
 
 ## 1: get amino acids and residues at the interaction interface of RNA-protein within 6A.
-### If you can directly provide amino acids and residues within 6A of the protein-RNA interaction interface, then this step is not necessary 
+### If you can directly provide amino acids and residues of the protein-RNA interaction interface within 6A , then this step is not necessary 
 cd ./6A_calculation 
 
 python rpo.py in out
