@@ -15,7 +15,7 @@ python rpo.py in out
 
 The command above will calculate the amino acids and residues at the protein-RNA interaction interface within 6A provided in ./6A_calculation/in and generate the results in ./6A_calculation/out.
 
-Then Generate a pdb file containing only amino acids and residues at the 6A interaction interface.
+Then generate a pdb file containing only amino acids and residues at the 6A interaction interface.
 ### attention: For structures containing multiple chains, you need to manually delete protein-protein, RNA-RNA self-interactions from the output file.
 
 cat complex1.pdb_*.txt > complex1.pdb_6A.txt  
