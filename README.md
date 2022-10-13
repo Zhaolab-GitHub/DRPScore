@@ -9,8 +9,7 @@ attention:The input objects of 4DCNN are amino acids and residues at the interac
 
 ## 1: get amino acids and residues at the interaction interface of RNA-protein within 6A.
 ### This step is not necessary if you can directly provide amino acids and residues at the protein-RNA interaction interface within 6A
-cd ./6A_calculation 
-
+cd ./6A_calculation   
 python rpo.py in out
 
 The command above will calculate the amino acids and residues at the protein-RNA interaction interface within 6A provided in ./6A_calculation/in and generate the results in ./6A_calculation/out.
@@ -18,14 +17,13 @@ The command above will calculate the amino acids and residues at the protein-RNA
 ### attention: For structures containing multiple chains, you need to manually delete protein-protein, RNA-RNA self-interactions from the output file.
 
 Then generate a pdb file containing only amino acids and residues at the interaction interface within 6A.
-cat complex1.pdb_*.txt > complex1.pdb_6A.txt  
 
+cat complex1.pdb_*.txt > complex1.pdb_6A.txt  
 grep -wf complex1.pdb_6A.txt complex1.pdb > Acomplex1.pdb
 
 ## 2: Generate the scoring preparation file '*.npy'.
 
 cd ./4DCNN/data/predict/  
-
 python Main.py -pl pdblist  (to assess an RNA-protein complex)  
 
 python Main.py -pn pdbname  (to assess a list of RNA-protein complexes)
@@ -34,7 +32,6 @@ The command above will generate a preparation file '*.npy' for DRPScore of RNA-p
 
 ## 3.Prediction by 4DCNN.
 cd ./4DCNN  
-
 python pred.py
 
 The above command will predict all *.npy files provided in /data/predict/, scoring results are output in the scoring.txt.
