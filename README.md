@@ -35,7 +35,7 @@ python pred.py
 The above commands will predict all *.npy files provided in /data/predict/, and then scoring results are output in the scoring.txt.
 The first column is the name of the RNA-protein complex evaluated, and the third column is the probability of a native structure.
 
-For already generated the pdb file containing only amino acids and residues at the interaction interface within 6A, we provide a simple script (DRPScore.sh) to score.
+### For already generated the pdb file containing only amino acids and residues at the interaction interface within 6A, we provide a simple script (DRPScore.sh) to score.
 
 ## Contacts
 For any questions, please contact authors.
