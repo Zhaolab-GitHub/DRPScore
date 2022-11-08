@@ -40,7 +40,7 @@ The first column is the name of the RNA-protein complex evaluated, and the third
 
 ### For already generated the pdb file containing only amino acids and residues at the interaction interface within 6A, we provide a simple script (DRPScore.sh) to score.
 
-## 4： Data.
+## 4: Data.
 
 We provided the native structures (including bound and unbound structures) of all complexes for training and testing with the program. Due to the large size of the decoy structure files of all complexes, we could not upload all of them to github (the rough statistical size is 12G).  Therefore, we have provided on github files within the 6A interaction interface range of 17*1000 decoy structures for 17 complexes mentioned in Figure 5 of the article.  
 If you need us to provide detailed data of all native and decoy structures, please contact us via email: yjzhaowh@mail.ccnu.edu.cn
