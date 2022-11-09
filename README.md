@@ -42,8 +42,7 @@ The first column is the name of the RNA-protein complex evaluated, and the third
 
 ## 4: Data.
 
-We provided the native structures (including bound and unbound structures) of all complexes for training and testing with the program. Due to the large size of the decoy structure files of all complexes, we could not upload all of them to github (the rough statistical size is 12G).  Therefore, we have provided on github files within the 6A interaction interface range of 17*1000 decoy structures for 17 complexes mentioned in Figure 5 of the article.  
-If you need us to provide detailed data of all native and decoy structures, please contact us via email: yjzhaowh@mail.ccnu.edu.cn
+We provided the native RNA-protein complex structures (including bound and unbound structures) for training and testing with the program. Unfortunately, we cannot upload all the docking results to GitHub due to the large storage size of the docking structures (around 15G). Therefore, we provided all the data for Figure 5 in the manuscript as an example, including the calculated 17*1000 interaction interface results with a 6-angstrom cutoff. The data contains 17 RNA-protein complexes and 1000 docking interaction interface results for each RNA-protein structure. We can provide all the docking results for repeating the results if you need more data to test. Please contact us via email (yjzhaowh@mail.ccnu.edu.cn).
 
 ## Contacts
 For any questions, please contact authors.
